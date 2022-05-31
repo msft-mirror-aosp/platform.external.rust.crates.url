@@ -5,6 +5,17 @@
       "path": "external/rust/crates/quiche"
     }
   ],
+  "postsubmit": [
+    {
+      "name": "doh_unit_test"
+    },
+    {
+      "name": "url_test_tests_data"
+    },
+    {
+      "name": "url_test_tests_unit"
+    }
+  ],
   "presubmit": [
     {
       "name": "doh_unit_test"
